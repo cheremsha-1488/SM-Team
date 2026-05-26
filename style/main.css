@@ -1,0 +1,162 @@
+:root {
+    --main-color: #131313;
+    --secondar-color: #ffffff;
+    --accent-color: #a349a4;
+    --transition: 0.3s;
+}
+
+body {
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.header {
+    background-color: var(--main-color);
+    padding: 15px 0;
+}
+
+body {
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.header {
+    background-color: var(--main-color);
+    padding: 15px 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu-list {
+    display: flex;
+    gap: 35px;
+}
+
+.header__menu-link {
+    color: var(--secondar-color);
+    transition: var(--transition);
+}
+.header__menu-link:hover {
+    color: var(--accent-color);
+    /* text-decoration: overline; */
+    /* border-bottom: 1px solid var(--accent-color); */
+}
+
+.header__cta {
+    font-weight: bold;
+    color: var(--main-color);
+    background-color: var(--accent-color);
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.hero {
+    background-image: url(../images/сиреневые-цветочки.jpg);
+    background-size: cover;
+    padding: 200px 0 ;
+    color: var(--main-color);
+}
+.hero_title {
+    font-size: 120px;
+    font-weight: bold;
+}
+.hero_subtitle {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+.ссылка {
+    font-weight: bold;
+    color: var(--secondar-color);
+    background-color: var(--main-color);
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: var(--transition);
+}
+.footer__menu-item {
+    padding: 7px 0;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: right;
+}
+
+.footer__wrapper-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.header__menu-link,
+.footer__menu-link,
+.footer__contacts-item,
+.footer__politic,
+.footer__copyright {
+    color: var(--accent-color);
+    transition: var(--transition); }
+
+.footer {
+    background-color: var(--main-color);
+    padding: 80px 0 30px 0;
+}
+.howtonamets {
+    margin-top: 10px;
+    
+}
+.uh{
+    margin-top: 25px
+}
+.subscribe-plz {
+    margin-top: 7px ;
+    background-color: var(--accent-color);
+    color: var(--main-color);
+    padding: 30px;
+}
+
+.subscribe_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.subscribe_form {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.subscribe_input {
+    font-size: 16px;
+    padding: 15px 30px;
+    border: 1px solid var(--main-color);
+    background-color: var(--secondar-color);
+    width: 300px;
+    border-radius: 18px;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.subscribe_button {
+    font-weight: bold;
+    color: var(--secondar-color);
+    background-color: var(--main-color);
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: var(--transition);
+}
+
+.light-night-mode {
+    background-color: #a349a4;
+    border: 0;
+    
+}
+

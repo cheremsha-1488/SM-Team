@@ -1,0 +1,42 @@
+/* Тёмная тема — стили для элементов при тёмной теме */
+body.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-theme .header {
+    background-color: #1e1e1e;
+}
+
+body.dark-theme .footer {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+body.dark-theme .subscribe-plz {
+    background-color: #a349a4;
+}
+
+body.dark-theme .hero {
+    background-color: #1a1a1a;
+}
+
+body.dark-theme .header__menu-link,
+body.dark-theme .footer__menu-link {
+    color: #a349a4;
+}
+
+body.dark-theme .header__cta {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+body.dark-theme .subscribe_input{
+    background-color: #000000;
+    
+}
+
+/* Плавный переход между темами */
+body {
+    transition: all 0.3s ease;
+}
+
